@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    font-family: lato;
+    }
+#principal{
+        
+        margin: auto;
+        }
+        
+    header {
+        color:white;
+        margin: auto;
+        padding-bottom:50px ;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        
+    }
+ 
+    #uno{
+        height:80px;
+        margin-left:700px;
+        display: flex;
+        justify-content:flex-start;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 100px;
+    }
+     a{
+        margin-top: 50px;
+        padding:20px;
+        margin: auto;
+        text-decoration:none;
+        
+    }
+    #dos{
+        width:40%;
+        margin-left: 150px;
+    }
+    #dos h1{
+        font-size: 60px;
+    }
+    #dos p{
+        font-size:20px ;
+    }
+    .as{
+        color:white;
+    }
+    .ac{
+        border: 2px solid white;
+        border-radius:15px;
+        color:white;
+    }
+
+    .co{
+        background-color:  white;
+        border-radius:15px;
+        color:black;
+        font-weight: bolder;
+    }
+    .negrita{
+        font-weight: bold;
+    }
+    #eventos{
+        width: 30%;
+        margin: auto;
+    }
+    #eventos h1{
+        font-size: 50px;
+        text-align:center;
+        padding-top:50px;
+    }
+    #eventos p{
+        font-size:18px ;
+        text-align: justify;
+    }
+    
+    #imagen{
+        width: 80%;
+        -height: 22%;
+        margin: auto;
+        margin-top: 50px;
+        display: flex; 
+        justify-content:space-between;
+    }
+    
+    #imagen .uno{
+        width: 22%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px 5px rgb(197, 193, 193);
+    }
+
+    #imagen .parrafo{
+        background: rgb(194, 224, 245);
+        border-radius:10px;
+        color:rgb(27, 104, 211);  
+        font-weight: bolder;
+        padding: 5px;
+        
+
+    }
+    .uno img{
+        border-radius:150px;
+    }
+    
+   .apuntate{
+    margin-top:30px ;
+    padding-top:20px ;
+    height: 220px;
+    background-color:mediumorchid ;
+    
+   }
+   .apuntate0{
+    width: 73%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    -flex-direction: row;
+    border: 2px solid rgb(48, 233, 57);
+   }
+
+   .apuntateblanco{
+    background-color: white;
+    
+   }
+   .apuntateUno{
+        width:40% ;
+        margin: auto;
+        -margin-left: 170px;
+        justify-content:center;
+    }
+
+    .apuntateDos{
+        width: 40%;
+        margin: auto;
+        -margin-left: 200px;
+        display: flex;
+        -flex-wrap: nowrap;
+        -align-items:space-evenly;
+   }
+
+   .apuntateUno .parf{
+    color:white;
+   }
+
+   .apuntateUno .parr1{
+    font-size: 20px;
+   }
+
+   .apuntateUno .parr2{
+   font-size: 30px;
+   text-align: center;
+   }
+
+   #salida{
+    -border: 2px solid rgb(125, 40, 40);
+    width: 50%;
+    margin: auto;
+    }
+    
+    #salida h1{
+    font-size: 50px;
+    text-align:center;
+    padding-top:50px;
+    }
+
+    #colprincipal{
+        width: 72%;
+        border: 2px solid red;
+        margin: auto;
+    }
+
+    .colm1{
+        border: 2px solid rgb(23, 27, 227);
+        -width: 40%;
+        margin: auto;
+        display:inline-flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        
+    }
+    .col1{
+        border: 2px solid rgb(23, 27, 227);
+        width: 42%;
+        margin: auto;
+        border-radius:10px;
+        padding: 20px;
+        box-shadow: 5px 5px 5px 5px black;
+    }
+    #colprincipal a{
+        color:blue;
+        font-weight: bolder;
+    }
+    #colprincipal span{
+      color:blue;
+      font-weight: bolder;
+    }
+    #apuntate0{
+        width: 72%;
+        margin: auto;
+        background-color: white;
+        border: 2px solid red;
+        display: flex;
+        justify-content: space-around;
+    }
+
+   
+    .apuntateUno{
+        -width: 42%;
+        border: 2px solid rgb(29, 22, 78);
+        
+    }
+
+    .apuntateDos{
+        -width: 55%;
+        border: 2px solid rgb(46, 184, 28);
+        -display: flex;
+        -flex-direction: row;
+   }
