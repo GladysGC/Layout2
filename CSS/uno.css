@@ -11,7 +11,7 @@
         color:white;
         margin: auto;
         padding-bottom:50px ;
-        background-color: blueviolet;
+        background-color: #7F4796;
         display: flex;
         flex-direction: column;
         
@@ -109,7 +109,7 @@
     margin-top:30px ;
     padding-top:20px ;
     height: 220px;
-    background-color:mediumorchid ;
+    background-color:#7F4796 ;
     
    }
    .apuntate0{
